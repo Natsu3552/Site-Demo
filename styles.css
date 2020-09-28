@@ -1,0 +1,207 @@
+.body{
+  background-color: #171717;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: inherit;
+}
+
+#cardb{
+  background-color: #faf3dd;
+  border: none
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+h5{
+  font-size: 35px;
+  padding-top: 5rem;
+}
+
+h1{
+  text-decoration: none;
+}
+
+body{
+  margin: 0
+}
+
+div {
+  display: block;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+    outline: 0;
+    background-color: transparent;
+}
+
+.content {
+  text-align: center;
+}
+
+/* Navigation Bar CSS */
+
+.navbar-brand{
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+      font-size: 2rem;
+      color: #fff;
+}
+
+.navbar-brand:hover{
+  color: #ff414d;
+}
+
+.navbar{
+  margin-top: 1.5rem;
+}
+
+.nav-item{
+  padding: 0 1rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#image-logo{
+  margin-top: 3%;
+}
+
+
+/* The Home Page Slider */
+
+
+.carousel{
+  padding-top: 5rem;
+  margin: auto;
+  width: 80%
+}
+
+
+/* The Section Headings */
+
+
+text-highlight{
+  margin-left: 11rem;
+}
+
+/* Text highlight */
+
+.text-highlight{
+  margin-left: 9.9rem;
+}
+
+.text-highlight {
+  color: #fff;
+}
+
+/* The Row of Card and Sidebar Widget Section */
+
+.row {
+  text-align: center;
+  margin: 0 4rem;
+}
+
+
+@media (max-width: 1700px){
+  .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    margin: 0;
+    text-align: center;
+  }
+
+  .dicord-w {
+    margin: auto;
+  }
+
+  .text-highlight{
+    margin: 0;
+  }
+  .text {
+    text-align: center;
+  }
+
+
+}
+
+
+/* Homepage Cards */
+
+.card {
+  padding: 4.165rem 4.165rem 4.165rem 0rem;
+  border-radius: 0;
+  background-color: #171717;
+  text-align: center;
+  border: none;
+}
+
+.card-img-top {
+  max-width: 240px;
+}
+
+.card-text {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-family: 'Asap Condensed', sans-serif;
+  text-decoration: none;
+  color: #fff
+}
+
+.card-text:hover {
+  color: #ff414d;
+}
+
+
+/* The Discord Widget */
+
+.discord-w {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+/* Footer */
+
+.mr-4 {
+  color: #ff414d;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #ff414d;
+}
+
+.footer-copyright {
+  color: #eeeeee;
+}
+
+.footer-link {
+  font-family: 'Asap Condensed', sans-serif;
+
+}
